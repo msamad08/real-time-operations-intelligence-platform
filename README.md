@@ -152,14 +152,16 @@ The Streamlit dashboard provides:
 The system includes a production-style FastAPI deployment for real-time operational forecasting.
 
 ### Example Endpoint
+```text
 POST /predict
-
+```
 ### Example Response
+```text
 {
   "risk_level": "High",
   "demand_probability": 0.915
 }
-
+```
 ## Example Operational Use Cases
 
 This platform can support:
