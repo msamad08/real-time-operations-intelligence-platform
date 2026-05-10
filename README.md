@@ -69,7 +69,7 @@ This platform addresses those challenges by combining operational analytics, mac
 ---
 
 ## System Architecture
-
+![Architecture Diagram](outputs/figures/architecture_diagram.png)
 ```text
 Weather Data + IoT Simulation + Job Logs + Franchise Capacity
                          ↓
