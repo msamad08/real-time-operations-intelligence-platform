@@ -100,9 +100,10 @@ The model evaluates operational risk using:
 - crew availability
 - equipment capacity
 - historical service demand
-- Operational Features Engineered
 
-## Key engineered features include:
+## Operational Features Engineered
+
+Key engineered features include:
 - weather_risk_index
 - sensor_risk_index
 - operational_pressure_score
@@ -123,37 +124,37 @@ The Streamlit dashboard provides:
 - Resource allocation visibility
 - Interactive operational intelligence reporting
 
-# Dashboard Overview
+## Dashboard Overview
 ![Dashboard](outputs/figures/dashboard_overview.png)
 
 ---
 
-# Operational Risk Map
+## Operational Risk Map
 ![Risk Map](outputs/figures/operational_risk_map.png)
 
 ---
 
-# Operational Pressure Analytics
+## Operational Pressure Analytics
 ![Pressure](outputs/figures/operational_pressure.png)
 
 ---
 
-# Weather vs Sensor Risk Analysis
+## Weather vs Sensor Risk Analysis
 ![Weather Sensor](outputs/figures/weather_vs_sensor.png)
 
 ---
 
-# FastAPI Deployment
+## FastAPI Deployment
 ![Swagger UI](outputs/figures/swagger_ui.png)
 
 ## API Deployment
 
 The system includes a production-style FastAPI deployment for real-time operational forecasting.
 
-# Example Endpoint
+### Example Endpoint
 POST /predict
 
-# Example Response
+### Example Response
 {
   "risk_level": "High",
   "demand_probability": 0.915
