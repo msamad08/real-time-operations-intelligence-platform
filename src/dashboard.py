@@ -167,6 +167,20 @@ recommendation_df = pd.DataFrame(recommendations)
 st.dataframe(recommendation_df, use_container_width=True)
 
 # ==========================
+# Operational Alerts
+# ==========================
+
+st.subheader("Operational Alerts")
+
+alerts_path = BASE_DIR / "outputs" / "reports" / "operational_alerts.csv"
+
+if alerts_path.exists():
+    alerts_df = pd.read_csv(alerts_path)
+    st.dataframe(alerts_df, use_container_width=True)
+else:
+    st.info("No alert file found. Run src/alerting.py to generate operational alerts.")
+
+# ==========================
 # Data Table
 # ==========================
 

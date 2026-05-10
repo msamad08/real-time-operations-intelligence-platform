@@ -1,0 +1,64 @@
+zone_id,alert_level,operational_pressure_score,crew_availability,current_workload,recommended_action
+ZONE_002,Moderate,14.25,5,4,Monitor conditions and prepare staffing backup.
+ZONE_003,Moderate,14.05,1,10,Monitor conditions and prepare staffing backup.
+ZONE_004,Moderate,14.19,2,1,Monitor conditions and prepare staffing backup.
+ZONE_005,Moderate,15.16,4,14,Monitor conditions and prepare staffing backup.
+ZONE_008,Moderate,12.81,9,4,Monitor conditions and prepare staffing backup.
+ZONE_010,Moderate,16.42,6,17,Monitor conditions and prepare staffing backup.
+ZONE_012,Moderate,12.41,7,4,Monitor conditions and prepare staffing backup.
+ZONE_013,Moderate,13.23,2,15,Monitor conditions and prepare staffing backup.
+ZONE_014,Moderate,14.96,7,12,Monitor conditions and prepare staffing backup.
+ZONE_015,Moderate,16.33,4,4,Monitor conditions and prepare staffing backup.
+ZONE_016,Moderate,15.99,0,12,Monitor conditions and prepare staffing backup.
+ZONE_017,Moderate,14.56,6,16,Monitor conditions and prepare staffing backup.
+ZONE_018,Moderate,22.51,4,17,Monitor conditions and prepare staffing backup.
+ZONE_019,Moderate,13.41,5,7,Monitor conditions and prepare staffing backup.
+ZONE_020,Moderate,16.08,5,12,Monitor conditions and prepare staffing backup.
+ZONE_021,Moderate,14.69,7,18,Monitor conditions and prepare staffing backup.
+ZONE_025,Moderate,14.79,9,7,Monitor conditions and prepare staffing backup.
+ZONE_026,Moderate,12.71,8,12,Monitor conditions and prepare staffing backup.
+ZONE_027,Moderate,13.56,9,12,Monitor conditions and prepare staffing backup.
+ZONE_030,Critical,19.01,0,18,Stage emergency crews and mitigation equipment immediately.
+ZONE_031,Moderate,13.91,6,15,Monitor conditions and prepare staffing backup.
+ZONE_034,Moderate,16.86,5,15,Monitor conditions and prepare staffing backup.
+ZONE_036,Moderate,17.99,6,12,Monitor conditions and prepare staffing backup.
+ZONE_038,Moderate,21.1,6,12,Monitor conditions and prepare staffing backup.
+ZONE_041,Moderate,14.52,7,5,Monitor conditions and prepare staffing backup.
+ZONE_042,Moderate,16.42,1,6,Monitor conditions and prepare staffing backup.
+ZONE_044,Moderate,14.15,1,10,Monitor conditions and prepare staffing backup.
+ZONE_045,Moderate,16.97,3,12,Monitor conditions and prepare staffing backup.
+ZONE_046,Moderate,16.27,6,18,Monitor conditions and prepare staffing backup.
+ZONE_047,Moderate,14.6,2,9,Monitor conditions and prepare staffing backup.
+ZONE_048,Moderate,14.14,1,9,Monitor conditions and prepare staffing backup.
+ZONE_051,Critical,21.72,0,17,Stage emergency crews and mitigation equipment immediately.
+ZONE_052,Moderate,12.99,7,3,Monitor conditions and prepare staffing backup.
+ZONE_053,Moderate,12.85,2,1,Monitor conditions and prepare staffing backup.
+ZONE_055,Moderate,13.66,2,12,Monitor conditions and prepare staffing backup.
+ZONE_056,Moderate,17.65,4,11,Monitor conditions and prepare staffing backup.
+ZONE_058,Moderate,12.13,9,1,Monitor conditions and prepare staffing backup.
+ZONE_062,Moderate,13.34,7,8,Monitor conditions and prepare staffing backup.
+ZONE_063,Critical,18.88,0,16,Stage emergency crews and mitigation equipment immediately.
+ZONE_064,Moderate,12.51,3,7,Monitor conditions and prepare staffing backup.
+ZONE_066,Moderate,13.43,8,12,Monitor conditions and prepare staffing backup.
+ZONE_067,Moderate,14.04,1,2,Monitor conditions and prepare staffing backup.
+ZONE_070,Moderate,15.62,1,18,Monitor conditions and prepare staffing backup.
+ZONE_072,Moderate,15.13,2,9,Monitor conditions and prepare staffing backup.
+ZONE_074,Moderate,13.73,1,1,Monitor conditions and prepare staffing backup.
+ZONE_075,Moderate,16.93,6,14,Monitor conditions and prepare staffing backup.
+ZONE_077,Moderate,17.33,2,3,Monitor conditions and prepare staffing backup.
+ZONE_078,Moderate,19.68,6,19,Monitor conditions and prepare staffing backup.
+ZONE_080,Critical,20.15,0,17,Stage emergency crews and mitigation equipment immediately.
+ZONE_081,Moderate,14.29,4,3,Monitor conditions and prepare staffing backup.
+ZONE_082,Moderate,12.8,8,16,Monitor conditions and prepare staffing backup.
+ZONE_083,Moderate,12.49,7,11,Monitor conditions and prepare staffing backup.
+ZONE_084,Moderate,17.85,8,16,Monitor conditions and prepare staffing backup.
+ZONE_085,Moderate,13.06,9,9,Monitor conditions and prepare staffing backup.
+ZONE_087,Moderate,16.41,6,17,Monitor conditions and prepare staffing backup.
+ZONE_089,Moderate,15.61,4,13,Monitor conditions and prepare staffing backup.
+ZONE_090,Critical,20.18,0,14,Stage emergency crews and mitigation equipment immediately.
+ZONE_091,Moderate,17.78,0,11,Monitor conditions and prepare staffing backup.
+ZONE_092,Moderate,15.7,2,3,Monitor conditions and prepare staffing backup.
+ZONE_094,Critical,18.98,1,19,Stage emergency crews and mitigation equipment immediately.
+ZONE_098,Moderate,12.59,8,0,Monitor conditions and prepare staffing backup.
+ZONE_099,Critical,18.29,0,5,Stage emergency crews and mitigation equipment immediately.
+ZONE_100,Moderate,16.56,4,14,Monitor conditions and prepare staffing backup.
