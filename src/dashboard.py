@@ -7,6 +7,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DATA_PATH = BASE_DIR / "data" / "processed" / "operations_features.csv"
 
+# ==========================
+# Cloud Deployment Data Check
+# ==========================
+
+import subprocess
+import sys
+
+if not DATA_PATH.exists():
+    subprocess.run([sys.executable, str(BASE_DIR / "src" / "generate_data.py")], check=True)
+    subprocess.run([sys.executable, str(BASE_DIR / "src" / "feature_engineering.py")], check=True)
+
 df = pd.read_csv(DATA_PATH)
 
 # ==========================
