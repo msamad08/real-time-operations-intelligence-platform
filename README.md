@@ -1,6 +1,9 @@
 # Real-Time Operations Intelligence Platform  
 ### AI-Driven Operational Forecasting | Geospatial Analytics | FastAPI | Streamlit
 This platform demonstrates how AI-driven operational forecasting can support proactive resource allocation, disaster response readiness, and enterprise decision-support operations.
+## Live Dashboard
+
+[Launch Live Dashboard](https://real-time-operations-intelligence-platform-du23nhwhhgtftyzappi.streamlit.app/)
 ---
 
 ## Overview
