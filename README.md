@@ -1,6 +1,6 @@
 # Real-Time Operations Intelligence Platform  
 ### AI-Driven Operational Forecasting | Geospatial Analytics | FastAPI | Streamlit
-
+This platform demonstrates how AI-driven operational forecasting can support proactive resource allocation, disaster response readiness, and enterprise decision-support operations.
 ---
 
 ## Overview
@@ -204,6 +204,36 @@ real-time-operations-intelligence-platform/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
+## How to Run
+
+### Create virtual environment
+
+```bash
+python -m venv .venv
+```
+### Activate environment
+```bash
+.venv\Scripts\activate
+```
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### Run dashboard
+```bash
+streamlit run src/dashboard.py
+```
+### Run API
+```bash
+uvicorn src.api:app --reload
+```
+## Model Performance
+```text
+- ROC-AUC: 0.91
+- Random Forest Classifier
+- Operational demand classification
+- Risk-based forecasting pipeline
 ```
 ## Future Enhancements
 
