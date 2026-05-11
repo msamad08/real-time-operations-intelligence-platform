@@ -240,16 +240,14 @@ uvicorn src.api:app --reload
 - Operational demand classification
 - Risk-based forecasting pipeline
 ```
+## Model Explainability
+
+![SHAP Summary](outputs/figures/shap_summary.png)
+
 ## Future Enhancements
 
 # Planned future improvements include:
-- Live weather API integration
-- Automated retraining pipeline
-- Real-time streaming ingestion
-- Docker containerization
-- Cloud deployment
-- Alerting and notification system
-- SHAP explainability integration
+
 - Automated monitoring and drift detection
 - Email or SMS alert notifications
 
