@@ -155,7 +155,7 @@ The project includes a production-style FastAPI service for operational forecast
 
 ### Live API Documentation
 
-[Open FastAPI Swagger Docs](https://https://real-time-operations-intelligence.onrender.com/)
+[Open FastAPI Swagger Docs](https://real-time-operations-intelligence.onrender.com/)
 
 ### Available Endpoints
 
