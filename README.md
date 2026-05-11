@@ -3,7 +3,7 @@
 This platform demonstrates how AI-driven operational forecasting can support proactive resource allocation, disaster response readiness, and enterprise decision-support operations.
 ## Live Dashboard
 
-[Launch Live Dashboard](https://real-time-operations-intelligence-platform-du23nhwhhgtftyzappi.streamlit.app/)
+[Launch Live Operations Dashboard](https://real-time-operations-intelligence-platform-du23nhwhhgtftyzappi.streamlit.app/)
 ---
 
 ## Overview
@@ -150,7 +150,18 @@ The Streamlit dashboard provides:
 ---
 
 ## FastAPI Deployment
-![Swagger UI](outputs/figures/swagger_ui.png)
+
+The project includes a production-style FastAPI service for operational forecasting and real-time prediction serving.
+
+### Live API Documentation
+
+[Open FastAPI Swagger Docs](https://https://real-time-operations-intelligence.onrender.com/)
+
+### Available Endpoints
+
+- `/predict`
+- `/health`
+- `/docs`
 
 ## API Deployment
 
