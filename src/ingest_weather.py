@@ -7,7 +7,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = BASE_DIR / "data" / "raw"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-API_KEY = "56e96713bcc78e052f73e85be6d0614f"
+import os
+
+API_KEY = os.getenv("OPENWEATHER_API_KEY")
+
+if not API_KEY:
+    raise ValueError("OPENWEATHER_API_KEY environment variable is not set.")
 
 locations = [
     {"zone_id": "ZONE_001", "city": "Nashville"},
