@@ -1,0 +1,6 @@
+zone_id,city,temperature_f,humidity,wind_speed,weather_condition
+ZONE_001,Nashville,77.5,44,12.66,Clear
+ZONE_002,Memphis,69.01,76,10.36,Mist
+ZONE_003,Clarksville,69.76,57,8.05,Clouds
+ZONE_004,Knoxville,74.23,56,0.0,Clear
+ZONE_005,Chattanooga,74.95,60,2.51,Clouds

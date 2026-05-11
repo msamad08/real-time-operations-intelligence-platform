@@ -7,6 +7,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DATA_PATH = BASE_DIR / "data" / "processed" / "operations_features.csv"
 
+WEATHER_PATH = BASE_DIR / "data" / "raw" / "live_weather_data.csv"
+
 # ==========================
 # Cloud Deployment Data Check
 # ==========================
@@ -19,6 +21,8 @@ if not DATA_PATH.exists():
     subprocess.run([sys.executable, str(BASE_DIR / "src" / "feature_engineering.py")], check=True)
 
 df = pd.read_csv(DATA_PATH)
+
+weather_df = pd.read_csv(WEATHER_PATH)
 
 # ==========================
 # Risk categories
@@ -57,6 +61,32 @@ col1, col2, col3 = st.columns(3)
 col1.metric("High Risk Zones", int(high_risk_count))
 col2.metric("Avg Response Time", f"{avg_response:.1f} min")
 col3.metric("Avg Operational Pressure", f"{avg_pressure:.2f}")
+
+# ==========================
+# Live Weather Monitoring
+# ==========================
+
+st.subheader("Live Weather Monitoring")
+
+weather_display = weather_df[[
+    "city",
+    "temperature_f",
+    "humidity",
+    "wind_speed",
+    "weather_condition"
+]]
+
+st.dataframe(weather_display, use_container_width=True)
+
+fig_weather = px.bar(
+    weather_df,
+    x="city",
+    y="wind_speed",
+    color="weather_condition",
+    title="Current Wind Speed by City"
+)
+
+st.plotly_chart(fig_weather, use_container_width=True)
 
 # ==========================
 # Risk Map

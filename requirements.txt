@@ -9,3 +9,4 @@ streamlit
 geopandas
 folium
 plotly
+requests

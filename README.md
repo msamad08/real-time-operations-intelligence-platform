@@ -41,6 +41,8 @@ This platform addresses those challenges by combining operational analytics, mac
 - Streamlit dashboard for operational visibility
 - Machine learning classification pipeline
 - Risk-based operational recommendations
+- Rule-based operational alerting system
+- Critical and moderate zone escalation logic
 
 ---
 
@@ -249,6 +251,7 @@ uvicorn src.api:app --reload
 - Alerting and notification system
 - SHAP explainability integration
 - Automated monitoring and drift detection
+- Email or SMS alert notifications
 
 ## Author
 
